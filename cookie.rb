@@ -1,5 +1,9 @@
 class Cookie
 
+  def initialize(sugar_amount, flour_amount)
+
+  end
+
   def self.info
     puts "I'm a Cookie!"
   end
