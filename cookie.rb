@@ -1,7 +1,13 @@
 class Cookie
 
   def initialize(sugar_amount, flour_amount)
+    @sugar_amount = sugar_amount
+    @flour_amount = flour_amount
+  end
 
+  def details
+    puts "This cookie has #{@sugar_amount}g of sugar"
+    puts "This cookie has #{@flour_amount}g of flour"
   end
 
   def self.info
