@@ -1,5 +1,9 @@
 class Cookie
 
+  def self.info
+    puts "I'm a Cookie!"
+  end
+
   def bake_and_eat
     bake
     eat
